@@ -5,6 +5,9 @@ This project allows users to browse products, while admins can manage products w
 
 🌐 Live Demo:  
 👉 https://online-shop-project.free.nf/
+Admin Account:
+  username: admin
+  password: hassanaitlahcen2007
 
 ---
 
