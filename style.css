@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.image_label {
+    font-size: 16px;
+}
+.alert_session {
+    color: rgb(200, 0, 0);
+}
+.actions {
+    padding: 10px;
+    
+}
+/* ---------- Product Card ---------- */
+.product-card {
+    border-radius: 12px;       /* حواف دائرية */
+    overflow: hidden;          /* لمنع تجاوز المحتوى */
+    transition: transform 0.2s, box-shadow 0.2s; /* تأثير عند hover */
+    height: 100%;              /* الكارد يملأ العمود */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);          /* يرفع الكارد عند hover */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* ظل عند hover */
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; /* تظهر بالكامل */
+    background-color: #f8f9fa;
+}
+
+/* Card Body */
+.product-card .card-body {
+    padding: 10px;
+}
+
+/* Product Title */
+.product-card .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Price and Date */
+.product-card .card-text {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+/* Buttons: Full width */
+.product-card .btn {
+    width: 48%;
+    font-size: 0.70rem;
+}
+.cart-button .btn {
+    width: 96%;
+}
